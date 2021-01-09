@@ -1,0 +1,6 @@
+coco/
+data/
+log/
+.pkl
+.zip
+__pycache__/

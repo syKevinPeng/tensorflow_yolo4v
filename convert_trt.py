@@ -2,8 +2,8 @@ from absl import app, flags, logging
 from absl.flags import FLAGS
 import tensorflow as tf
 physical_devices = tf.config.experimental.list_physical_devices('GPU')
-if len(physical_devices) > 0:
-    tf.config.experimental.set_memory_growth(physical_devices[0], True)
+# if len(physical_devices) > 0:
+#     tf.config.experimental.set_memory_growth(physical_devices[0], True)
 import numpy as np
 import cv2
 from tensorflow.python.compiler.tensorrt import trt_convert as trt
